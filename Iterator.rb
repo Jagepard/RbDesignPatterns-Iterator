@@ -8,9 +8,9 @@ class Iterator
         @bucket = bucket
     end
 
-    def iterateItems()
+    def iterate_items
         @bucket.each { |item|
-            puts item.getName() + ' ' + item.getPrice().to_s + ' ' + item.getDescription()
+            puts item.name + ' ' + item.price.to_s + ' ' + item.description
         }
     end
 end
