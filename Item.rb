@@ -8,15 +8,15 @@ class Item
         @name, @price, @description = name, price, description
     end
 
-    def getName()
-        return @name
+    def name
+        @name
     end
 
-    def getPrice
-        return @price
+    def price
+        @price
     end
 
-    def getDescription()
-        return @description
+    def description
+        @description
     end
 end

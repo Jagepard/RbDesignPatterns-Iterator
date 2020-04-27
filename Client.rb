@@ -4,13 +4,15 @@ license https://mit-license.org/ MIT
 =end
 
 class Client
-    @@bucket = []
-
-    def addItemToTheBucket(item)
-        @@bucket << item
+    def initialize
+        @bucket = []
     end
 
-    def getBucket()
-        return @@bucket
+    def add_item_to_the_bucket(item)
+        @bucket << item
+    end
+
+    def bucket
+        @bucket
     end
 end
