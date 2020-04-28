@@ -16,7 +16,7 @@ client.add_item_to_the_bucket(Item.new("Bride", 40))
 employee = Iterator.new(client.bucket)
 
 begin
-    employee.iterate_items;
+    employee.iterate_items
 rescue Exception => e
     puts e.message
     puts e.backtrace.inspect
