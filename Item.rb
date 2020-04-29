@@ -4,19 +4,19 @@ license https://mit-license.org/ MIT
 =end
 
 class Item
-    def initialize(name, price, description = "")
-        @name, @price, @description = name, price, description
-    end
+  def initialize(name, price, description = "")
+    @name, @price, @description = name, price, description
+  end
 
-    def name
-        @name
-    end
+  def name
+    @name
+  end
 
-    def price
-        @price
-    end
+  def price
+    @price
+  end
 
-    def description
-        @description
-    end
+  def description
+    @description
+  end
 end
